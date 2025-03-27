@@ -24,7 +24,7 @@ export default function NewPostModal({ show, handleClose }) {
     //Make API call
     axios
       .post(
-        'https://30d4c53e-cd38-4136-8c04-7149a5ad1298-00-2qa89cz459zzc.pike.replit.dev/posts',
+        'https://c79e07e7-914f-4db7-8868-16cbd20a73e7-00-2gmzc1xbvcmkq.pike.replit.dev/posts',
         data
       )
       .then((response) => {
