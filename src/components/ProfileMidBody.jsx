@@ -1,5 +1,5 @@
 import { jwtDecode } from 'jwt-decode';
-import { useEffect, useActionState } from 'react';
+import { useEffect, useState } from 'react';
 import { Button, Col, Image, Nav, Row, Spinner } from 'react-bootstrap';
 import ProfilePostCard from './ProfilePostCard';
 
